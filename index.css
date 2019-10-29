@@ -1,0 +1,94 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#results {
+    font-size: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30%;
+    margin-bottom: auto;
+    font-size: -webkit-xxx-large;
+    color: white;
+}
+
+.begin {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: x-large;
+}
+
+p {
+    text-align: center;
+    padding: 15px;
+    margin-top: 114px;
+    font-style: italic;
+    color: white;
+}
+
+button:focus {
+    outline:0;
+}
+
+.button_one {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    margin-left: 8px;
+    margin-right: 4px;
+    border: 0.1em solid #FFFFFF;
+    border-radius: 0.12em;
+    font-family: 'Roboto',sans-serif;
+    margin-bottom: 2px;
+    font-size: large;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.button_one {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%
+}
+
+.button_one:hover {
+    color: white;
+    background-color: black;
+}
+
+.button_two {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    border: 0.1em solid lightgrey;
+    border-radius: 0.12em;
+    color: white;
+    padding: 0.35em 1.2em;
+    font-family: 'Roboto',sans-serif;
+    font-size: medium;
+}
+
+.button_two:hover {
+    color: lightgray;
+}
+
+@media screen and (min-width: 900px) {
+   h1 {
+    margin-top: 18%;
+   }
+   #results-quote {
+    font-size: x-large;
+   }
+}
